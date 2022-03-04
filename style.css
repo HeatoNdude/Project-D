@@ -1,0 +1,238 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: black;
+    border-radius: 0px;
+    margin: 0;
+    width: 99%;
+    text-align: center;
+
+    padding: 10px;
+    height: 33px;
+    background: #F9B441;
+    /* margin-top: -8px;
+    margin-left: -8px; */
+   
+    }
+
+html, body {
+        margin:0px;
+        height:100%;
+        background: #FEBC4E;
+      }
+.main {
+    height:100%;
+    
+}
+
+
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 2px 42px;
+    text-align: center;
+    
+    
+
+}
+.navbar li a:hover{
+    background-color: rgb(250, 237, 162);
+}
+
+.navbar li a {
+    padding: 50x 10px;
+    text-decoration: none;
+    color: #343131;
+    font-size: x-large;
+    transition: background-color 1s;
+  
+   
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    
+    
+   
+
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 100%;
+    
+    object-fit: cover;
+    
+}
+
+.get-started{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    font-size: 75px;
+
+}
+
+.uil{
+    position: relative;
+    left: 99vh;
+    top: 8vh;
+
+}
+
+.info-page{
+    height: 100vh;
+    
+    margin: 100px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    
+    
+}
+
+.pic1{
+    position: relative;
+    float: left;
+    width: 420px;
+    height: 270px;
+    border-radius: 29px; 
+    top: 5vh;
+    /* right: 60px; */
+    /* align-self: flex-start; */
+    
+    
+   
+
+}
+
+.pic2{
+    position: relative;
+    float: right;
+    width: 420px;
+    height: 270px;
+    border-radius: 29px;
+    top: 30vh;
+    /* align-self: center; */
+    /* left: 515px; */
+   
+   
+}
+
+.pic3{
+    position: relative;
+    float: left;
+    width: 420px;
+    height: 270px;
+    border-radius: 29px; 
+    top: 50vh;
+    
+    
+}
+.info1{
+    position: relative;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+    top: 10vh;
+    width: 762px;
+    height: 218px;
+    
+
+    
+}
+
+.info1 h3{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 42px;
+    color: #000000;
+
+}
+
+.info1 h4{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+    text-indent: 3em;
+    
+}
+
+.info2{
+    position: relative;
+    float: left;
+    text-align: justify;
+    top: 25vh;
+    width: 762px;
+    height: 218px;
+}
+
+.info2 h4{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 34px;
+    color: #000000;
+    text-indent: 2em;
+}
+    
+.info3{
+    position: relative;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+    top: 50vh;
+    width: 762px;
+    height: 218px;
+}
+.info3 h3{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 42px;
+    color: #000000;
+
+}
+
+.info3 h4{
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+    text-indent: 3em;
+    
+}
