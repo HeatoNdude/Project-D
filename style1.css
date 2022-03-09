@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: black;
+    border-radius: 0px;
+    margin: 0;
+    text-align: center;
+    height: 60px;
+    background: #F9B441;
+    /* margin-top: -8px;
+    margin-left: -8px; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 8%; */
+    padding-right: 8%;
+    box-sizing: border-box;
+
+   
+    }
+
+html, body {
+        margin:0px;
+        height:100%;
+        background: #FEBC4E;
+      }
+
+.uil{
+    width: 30px;
+    cursor: pointer;
+    transform: scale(3,3);
+    margin-left: 50px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    padding: 10vh;
+    text-align: center;
+}
+
+nav ul li a{
+    position: relative;
+    left: 27vh;
+    text-decoration: none;
+    color: #343131;
+    font-style: normal;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+nav ul li h2{
+    position: relative;
+    right: 35vh;
+    
+    
+}
