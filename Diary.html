@@ -1,55 +1,113 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr.Diary</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script src="https://cdn.ckeditor.com/ckeditor5/30.0.0/inline/ckeditor.js"></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Mr.Diary
-    </title>
-    <link href="style1.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
-
-</head>
-<body>
+  <body>
     <div class="main">
-        <div class="container">
-            <div class="navbar">
-                <i class="uil uil-bars"></i>
-                <nav>               
-                    <ul>                       
-                        <li><h2>Mr.Diary</h2></li>
-                        <li><a href="#">Home</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
+      <div class="container">
+        <div class="navbar">
+          <div class="menu-btn" onclick="openFunction()">
+            <div class="menu-btn__burger"></div>
+          </div>
+          <script src="main2.js"></script>
+          <nav>
+            <ul>
+              <li>
+                <h2>Mr.Diary</h2>
+              </li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
+
+      <div class="sidemenu" id="popmenu">
+        <a href="#">Home</a>
+        <a href="#">Login</a>
+        <a href="#">Contact</a>
+        <a href="#">About-Us</a>
+      </div>
+      <!-- <script type="text/javascript">
+        function openFunction() {
+          document.getElementById("popmenu").style.width = "300px";
+        }
+      </script> -->
+
+      <div class="Diaryside">
+        <h2 class="Diarysi">D I A R Y</h2>
+      </div>
+      <div class="containerA">
+        <div class="spotify-api">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5q67ZpWyRrZ?utm_source=generator"
+            width="100%"
+            height="300"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+        <div class="news-api">
+          <iframe
+            src="https://feed.mikle.com/widget/v2/153950/?preloader-text=Loading"
+            height="302px"
+            width="270px"
+            class="fw-iframe"
+            scrolling="no"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- <div class="textareacon">
+        <input type="button" id="btnValue" value="Get Value" />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script
+          type="text/javascript"
+          src="//tinymce.cachefly.net/4.0/tinymce.min.js"
+        ></script>
+        <script type="text/javascript">
+          tinymce.init({
+            selector: "textarea",
+            width: 500,
+          });
+        </script>
+        <script src="main.js"></script>
+      </div> -->
+      <div class="textarea">
+        <div id="textBar">
+          <div class="pageNo">
+            <h3>Page No:</h3>
+          </div>
+          <div class="title">
+            <h3>Title:</h3>
+          </div>
+          <div class="date">
+            <h3>Date:</h3>
+          </div>
+          <div id="editor">
+            <p>Start writing here -</p>
+          </div>
+          <script>
+            InlineEditor.create(document.querySelector("#editor")).catch(
+              (error) => {
+                console.error(error);
+              }
+            );
+          </script>
+        </div>
+      </div>
     </div>
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </body>
 </html>
