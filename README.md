@@ -5,8 +5,8 @@ To view the progress Create a Folder and put the files inside of that folder > t
 or [index.html].
 
 this project has 2 stylesheets > 
-1 ~ [LandingPage.html] ----> style.css
-2 ~ [index.html] ----> style1.css
+1 ~ [index.html] ----> style.css
+2 ~ [Diary.html] ----> style1.css
 
 
 
