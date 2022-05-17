@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mr.Diary</title>
+    <script src="ckeditor/ckeditor.js"></script>
     <link href="style1.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -33,6 +34,7 @@
 
       <div class="sidemenu" id="popmenu">
         <a href="#">Home</a>
+        <a href="#">View old logs</a>
         <a href="#">Login</a>
         <a href="#">Contact</a>
         <a href="#">About-Us</a>
@@ -70,21 +72,6 @@
         </div>
       </div>
 
-      <!-- <div class="textareacon">
-        <input type="button" id="btnValue" value="Get Value" />
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script
-          type="text/javascript"
-          src="//tinymce.cachefly.net/4.0/tinymce.min.js"
-        ></script>
-        <script type="text/javascript">
-          tinymce.init({
-            selector: "textarea",
-            width: 500,
-          });
-        </script>
-        <script src="main.js"></script>
-      </div> -->
       <div class="textarea">
         <div id="textBar">
           <div class="pageNo">
@@ -96,11 +83,15 @@
           <div class="date">
             <h3>Date:</h3>
           </div>
-          <div id="editor">
-            <p>Start writing here -</p>
-          </div>
+          <div id="editorD"></div>
+
+          <form action="testing.php" method="post">
+            <textarea id="editor" name="editor"> </textarea>
+            <input type="submit" id="submitButt" name="submit_btn" />
+          </form>
+
           <script>
-            InlineEditor.create(document.querySelector("#editor")).catch(
+            ClassicEditor.create(document.querySelector("#editor")).catch(
               (error) => {
                 console.error(error);
               }
